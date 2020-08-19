@@ -685,10 +685,8 @@ If you have any questions/queries regarding implementation SDK please feel free 
 
 <table>
 <tr>
-Date
-<th>
-Description
-</th>
+<th>Date</th>
+<th>Description</th>
 </tr>
 <tr>
 <td>
@@ -707,33 +705,97 @@ Added non-ocr demo app.
 Added async parameter in sdk.
 </td>
 </tr>
+
+<tr>
+<td>
+ 15 Jan 2019
+</td>
+<td>
+Updated SDK with async uploading progress.
+</td>
+</tr>
+
+<tr>
+<td>
+  22 Jan 2019
+</td>
+<td>
+Updated SDK with progress bar (in percentage.
+</td>
+</tr>
+
+<tr>
+<td>
+  12 Apr 2019
+</td>
+<td>
+Updated SDK swift version to swift 5.
+</td>
+</tr>
+
+<tr>
+<td>
+  18 May 2019
+</td>
+<td>
+Added support to install through cocoapods.
+</td>
+</tr>
+
+<tr>
+<td>
+ 21 May 2019  
+</td>
+<td>
+Added support to install SDK  swift version 4 through cocoapods.
+</td>
+</tr>
+
+<tr>
+<td>
+ 23 May 2019
+</td>
+<td>
+Added support to install SDK  swift version 3 through cocoapods.
+</td>
+</tr>
+
+<tr>
+<td>
+  3 June 2019 
+</td>
+<td>
+Updated designs and added image capturing option.
+</td>
+</tr>
+
+<tr>
+<td>
+    24 June 2019
+</td>
+<td>
+ Fixed UI orientation to prtrait mode.
+</td>
+</tr>
+
+<tr>
+<td>
+    7 Sep 2019
+</td>
+<td>
+Updated SDK and demo app with new logos.
+</td>
+</tr>
+
+<tr>
+<td>
+      21 Oct 2019
+</td>
+<td>
+Updated SDK swift version to swift 5.1.
+</td>
+</tr>
 </table>
-
-  
-
-  Date |Description 
-  | :------------- | :------------- 
-    8 Nov 2018 | Added non-ocr demo app.
-    5 Nov 2018 | Added async parameter in sdk.
-    15 Jan 2019  | Updated SDK with async uploading progress.
-    22 Jan 2019  | Updated SDK with progress bar (in percentage.
-    12 Apr 2019  | Updated SDK swift version to swift 5.
-    18 May 2019  | Added support to install through cocoapods.
-    21 May 2019  | Added support to install SDK  swift version 4 through cocoapods.
-    23 May 2019  | Added support to install SDK  swift version 3 through cocoapods.
-    3 June 2019  | Updated designs and added image capturing option.
-    24 June 2019 | Fixed UI orientation to prtrait mode.
-    7 Sep 2019 | Updated SDK and demo app with new logos.
-    21 Oct 2019  | Updated SDK swift version to swift 5.1.
-    1 Nov 2019 | Updated SDK swift version to swift 5.1.2.
-    5 Nov 2019 | Fixed cache issues.
-    5 Dec 2019 | Added image/video preview.
-    31 Mar 2020  | Added Access Token
-    4 Apr 2020 | Updated request data (Added key fetch_enhanced_data)
-    5 May 2020 | Updated binary bitcode
-    12 May 2020  | Updated SDK swift version to swift 5.2.2
-    18 May 2020  | Minor UI fixes and implemented new waiting screen
-    21 May 2020  | Minor UI Improvements
   
   
 
