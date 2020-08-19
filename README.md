@@ -687,7 +687,7 @@ If you have any questions/queries regarding implementation SDK please feel free 
   Date |Description 
   | :------------- | :------------- 
     8 Nov 2018 | Added non-ocr demo app.
-    5 Nov 2018 | Added async parameter in sdk.
+   5 Nov 2018 | Added async parameter in sdk.
     15 Jan 2019  | Updated SDK with async uploading progress.
     22 Jan 2019  | Updated SDK with progress bar (in percentage.
     12 Apr 2019  | Updated SDK swift version to swift 5.
