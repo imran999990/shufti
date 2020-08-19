@@ -683,6 +683,7 @@ If you have any questions/queries regarding implementation SDK please feel free 
 ## Revision History
 
 
+
   Date |Description 
   | :------------- | :------------- 
     8 Nov 2018 | Added non-ocr demo app.
