@@ -683,11 +683,38 @@ If you have any questions/queries regarding implementation SDK please feel free 
 ## Revision History
 
 
+<table>
+<tr>
+Date
+<th>
+Description
+</th>
+</tr>
+<tr>
+<td>
+8 Nov 2018
+</td>
+<td>
+Added non-ocr demo app.
+</td>
+</tr>
+
+<tr>
+<td>
+ 5 Nov 2018
+</td>
+<td>
+Added async parameter in sdk.
+</td>
+</tr>
+</table>
+
+  
 
   Date |Description 
   | :------------- | :------------- 
     8 Nov 2018 | Added non-ocr demo app.
-   5 Nov 2018 | Added async parameter in sdk.
+    5 Nov 2018 | Added async parameter in sdk.
     15 Jan 2019  | Updated SDK with async uploading progress.
     22 Jan 2019  | Updated SDK with progress bar (in percentage.
     12 Apr 2019  | Updated SDK swift version to swift 5.
