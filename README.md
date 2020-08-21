@@ -20,7 +20,7 @@ Supported architectures in SDK:
 ``` 
 
 ### Packages
-We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro .
+We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for expo.
 
 ```json
 "dependencies": {  
@@ -56,7 +56,7 @@ We find it fair to share our `package.json dependencies`  with you! here are the
 ``` 
 
 ### Packages
-We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro.
+We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for react native.
 
 ```json
 "dependencies": {  
