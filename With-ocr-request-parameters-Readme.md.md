@@ -20,7 +20,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
   Type: **string**  
   Length: **2 characters**
 
-  Send the 2 characters long [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) country code of where your customer is from. Please consult [Supported Countries](https://github.com/shuftipro/RESTful-API-v1.3/blob/master/off-site_with_ocr/countries.md) for country codes.
+  Send the 2 characters long [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) country code of where your customer is from. Please consult [Supported Countries](https://api.shuftipro.com/api/docs/offsite_with_ocr/#supported-countries) for country codes.
 
 * ## language
 
