@@ -25,8 +25,9 @@ Supported architectures in SDK:
 ``` 
 
 ### Packages
-* #### Expo
-We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for expo.
+
+We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro.
+* #### Dependencies in Expo
 
 ```json
 "dependencies": {  
@@ -47,22 +48,7 @@ We find it fair to share our `package.json dependencies`  with you! here are the
   "expo-network": "~2.2.1"  
 },
 ```
-
- ## Integration:
- See the sample project provided to learn the most common use. Make sure to build on real device.
- ```
- $ import ShuftiPro from "expo-shuftipro-sdk"
- ```
-
-
-## SDK Installation Guide React Native
-
-
-
-
-### Packages
-We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for react native.
-
+* #### Dependencies in React Native
 ```json
 "dependencies": {  
    "@react-native-community/netinfo": "^5.9.6",
@@ -81,6 +67,22 @@ We find it fair to share our `package.json dependencies`  with you! here are the
     "redux-thunk": "^2.3.0" 
 },
 ```
+
+ ## Integration:
+ See the sample project provided to learn the most common use. Make sure to build on real device.
+ ```
+ $ import ShuftiPro from "expo-shuftipro-sdk"
+ ```
+
+
+
+
+
+
+
+
+
+
  ### Integration:
  See the sample project provided to learn the most common use. Make sure to build on real device.
  ```
