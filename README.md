@@ -220,7 +220,7 @@ verificationMode = "image"
 
 ## Request Parameters
 
-Request parameters for OCR can be found [here](With-ocr-request-parameters-Readme.md.md) 
+Request parameters for OCR can be found [here](With-ocr-request-parameters-Readme.md) 
 Request parameters for with out OCR can be found [here](With-out-ocr-request-parameters-Readme.md)
 
   
