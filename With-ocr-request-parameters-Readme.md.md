@@ -28,7 +28,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
   Type: **string**  
   Length: **2 characters**
 
-  Send the 2 characters long language code of your preferred language to display the verification screens accordingly. Please consult [Supported Languages](languages.md) for language codes. Default language english will be selected if this key is missing in the request.
+  Send the 2 characters long language code of your preferred language to display the verification screens accordingly. Please consult [Supported Languages](https://api.shuftipro.com/api/docs/offsite_with_ocr/#supported-languages) for language codes. Default language english will be selected if this key is missing in the request.
 
 * ## email
 
