@@ -51,6 +51,89 @@ We find it fair to share our `package.json dependencies`  with you! These are th
 Instance can be made in two ways. First is by using **clientId** and **secretKey**, other one is by providing **accessToken**.  
 You can read more about **accessToken**  [here](https://api.shuftipro.com/api/docs/#access-token)
  
+ ## Sample request (with out ocr)
+ ``` js
+ export const verificationObj = {  
+     reference: "Unique reference",  
+     country: "GB",  
+     language: "EN",  
+     email: "johndoe@example.com",  
+     callback_url: "http://www.example.com",  
+     face: true,  
+     document: {  
+              supported_types["passport","id_card","driving_license","credit_or_debit_card"],  
+              name: {  
+                  first_name: "John",  
+                  last_name: "Carter",  
+                  middle_name: "Doe"  
+                  },  
+              dob: "1992-10-10",  
+              document_number: "2323-5629-5465-9990",  
+              expiry_date: "2025-10-10",  
+              issue_date: "2015-10-10",  
+              fetch_enhanced_data: "1"  
+     },  
+     address: {  
+               full_address: "3339 Maryland Avenue, Largo, Florida",  
+               name: {  
+                     first_name: "John",  
+                     last_name: "Carter",  
+                     middle_name: "Doe",  
+                     fuzzy_match: "1"  
+                     },  
+               supported_types: ["id_card", "utility_bill", "bank_statement"],  
+   },  
+    consent: {  
+         format: "printed",  
+         text: "This is a customized text"  
+              }  
+   
+   
+ };
+ ```
+ ## Sample request (with ocr)
+ ``` js
+ export const verificationObj = {  
+     reference: "Unique reference",  
+     country: "GB",  
+     language: "EN",  
+     email: "johndoe@example.com",  
+     callback_url: "http://www.example.com",  
+     face: true,  
+     document: {  
+              supported_types["passport","id_card","driving_license","credit_or_debit_card"],  
+              name: {  
+                  first_name: "",  
+                  last_name: "",  
+                  middle_name: ""  
+                  },  
+              dob: "",  
+              document_number: "",  
+              expiry_date: "",  
+              issue_date: "",  
+              fetch_enhanced_data: "1"  
+     },  
+     address: {  
+               full_address: "",  
+               name: {  
+                     first_name: "",  
+                     last_name: "",  
+                     middle_name: "",  
+                     fuzzy_match: ""  
+                     },  
+               supported_types: ["id_card", "utility_bill", "bank_statement"],  
+   },  
+    consent: {  
+         format: "printed",  
+         text: "This is a customized text"  
+              }  
+   
+   
+ };
+ ```
+
+ 
+ 
 ## Usage
 ```js
 <ShuftiPro
@@ -144,86 +227,6 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
 </tr>  
 </table>
 
-## Sample request (with out ocr)
-``` js
-export const verificationObj = {  
-    reference: "Unique reference",  
-    country: "GB",  
-    language: "EN",  
-    email: "johndoe@example.com",  
-    callback_url: "http://www.example.com",  
-    face: true,  
-    document: {  
-             supported_types["passport","id_card","driving_license","credit_or_debit_card"],  
-             name: {  
-                 first_name: "John",  
-                 last_name: "Carter",  
-                 middle_name: "Doe"  
-                 },  
-             dob: "1992-10-10",  
-             document_number: "2323-5629-5465-9990",  
-             expiry_date: "2025-10-10",  
-             issue_date: "2015-10-10",  
-             fetch_enhanced_data: "1"  
-    },  
-    address: {  
-              full_address: "3339 Maryland Avenue, Largo, Florida",  
-              name: {  
-                    first_name: "John",  
-                    last_name: "Carter",  
-                    middle_name: "Doe",  
-                    fuzzy_match: "1"  
-                    },  
-              supported_types: ["id_card", "utility_bill", "bank_statement"],  
-  },  
-   consent: {  
-        format: "printed",  
-        text: "This is a customized text"  
-             }  
-  
-  
-};
-```
-## Sample request (with ocr)
-``` js
-export const verificationObj = {  
-    reference: "Unique reference",  
-    country: "GB",  
-    language: "EN",  
-    email: "johndoe@example.com",  
-    callback_url: "http://www.example.com",  
-    face: true,  
-    document: {  
-             supported_types["passport","id_card","driving_license","credit_or_debit_card"],  
-             name: {  
-                 first_name: "",  
-                 last_name: "",  
-                 middle_name: ""  
-                 },  
-             dob: "",  
-             document_number: "",  
-             expiry_date: "",  
-             issue_date: "",  
-             fetch_enhanced_data: "1"  
-    },  
-    address: {  
-              full_address: "",  
-              name: {  
-                    first_name: "",  
-                    last_name: "",  
-                    middle_name: "",  
-                    fuzzy_match: ""  
-                    },  
-              supported_types: ["id_card", "utility_bill", "bank_statement"],  
-  },  
-   consent: {  
-        format: "printed",  
-        text: "This is a customized text"  
-             }  
-  
-  
-};
-```
 ## Asyncronous Feedback
 
 If async value is set to ****true**** you'll instantly get the user's control back so you don't have to wait for the verification results. When a request is completed you'll automatically get a callback.
