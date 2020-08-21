@@ -1,4 +1,4 @@
-## Request Parameters 
+## Request Parameters (With OCR)
 
 It is important to note here that each service module is independent of other and each one of them is activated according to the nature of request received from you. There are a total of four services which include face, document, address and consent.
 
@@ -20,7 +20,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
   Type: **string**  
   Length: **2 characters**
 
-  Send the 2 characters long [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) country code of where your customer is from. Please consult [Supported Countries](https://github.com/shuftipro/RESTful-API-v1.3/blob/master/off-site_with_ocr/countries.md) for country codes.
+  Send the 2 characters long [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) country code of where your customer is from. Please consult [Supported Countries](https://api.shuftipro.com/api/docs/offsite_with_ocr/#supported-countries) for country codes.
 
 * ## language
 
@@ -28,7 +28,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
   Type: **string**  
   Length: **2 characters**
 
-  Send the 2 characters long language code of your preferred language to display the verification screens accordingly. Please consult [Supported Languages](languages.md) for language codes. Default language english will be selected if this key is missing in the request.
+  Send the 2 characters long language code of your preferred language to display the verification screens accordingly. Please consult [Supported Languages](https://api.shuftipro.com/api/docs/offsite_with_ocr/#supported-languages) for language codes. Default language english will be selected if this key is missing in the request.
 
 * ## email
 
