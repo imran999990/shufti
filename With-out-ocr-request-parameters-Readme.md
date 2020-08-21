@@ -94,14 +94,14 @@ All verification services are optional. You can provide Shufti Pro a single serv
 
    * <h4>name</h4>
 
-     Required: ****No****
-     Type: ****object****
+       Required: ****No****
+       Type: ****object****
 
-     For a name verification, first_name field is required.
+       For a name verification, first_name field is required.
 
-     ****Example 1****  { "first_name" : "John", "last_name" : "Doe" }
+       ****Example 1****  { "first_name" : "John", "last_name" : "Doe" }
      
-     ****Example 2****  { "first_name" : "John", "last_name" : "Doe", "fuzzy_match" : "1"}
+       ****Example 2****  { "first_name" : "John", "last_name" : "Doe", "fuzzy_match" : "1"}
 
   
 
