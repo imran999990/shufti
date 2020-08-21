@@ -20,7 +20,7 @@ Supported architectures in SDK:
 ``` 
 
 ### Packages
-We find it fair to share our `package.json dependencies`  with you! These are the main dependencies used inside Shuftipro.
+We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro .
 
 ```json
 "dependencies": {  
@@ -56,7 +56,7 @@ We find it fair to share our `package.json dependencies`  with you! These are th
 ``` 
 
 ### Packages
-We find it fair to share our `package.json dependencies`  with you! These are the main dependencies used inside Shuftipro.
+We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro.
 
 ```json
 "dependencies": {  
