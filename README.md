@@ -308,6 +308,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
      |  credit_or_debit_card  |
 
      ****Example 1**** ["driving_license"]
+     
      ****Example 2**** ["id_card", "credit_or_debit_card", "passport"]
 
   
@@ -320,6 +321,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
      For a name verification, first_name field is required.
 
      ****Example 1****  { "first_name" : "John", "last_name" : "Doe" }
+     
      ****Example 2****  { "first_name" : "John", "last_name" : "Doe", "fuzzy_match" : "1"}
 
   
