@@ -126,26 +126,26 @@ For Details on additional_data object go to [Additional Data](https://api.shufti
 
   Address of an individual can be verified from the document. For **address verification** just add key "address" in data dictionary. Here are the additional keys for address
    
-    * <h3>supported_types</h3>
+     * <h3>supported_types</h3>
 
-    Required: **Yes**  
-    Type: **Array**
+          Required: **Yes**  
+          Type: **Array**
  
-    Supported Types      |
-    ---------------------|
-    id_card             |
-    utiltiy_bill           |
-    bank_statement   |
+          Supported Types      |
+          ---------------------|
+          id_card             |
+          utiltiy_bill           |
+          bank_statement   |
 
-    **Example 1** [ "utility_bill" ]  
-    **Example 2** [ "id_card", "bank_statement" ]
+         **Example 1** [ "utility_bill" ]  
+         **Example 2** [ "id_card", "bank_statement" ]
     
     * <h3>full_address</h3>
 
-    Required: **No**  
-    Type: **Boolean** 
+       Required: **No**  
+       Type: **Boolean** 
 
-    Set **true** to perform full address extraction from provided proofs. Allowed Characters are numbers, alphabets, dots, dashes, spaces, underscores, hashes and     commas.
+       Set **true** to perform full address extraction from provided proofs. Allowed Characters are numbers, alphabets, dots, dashes, spaces, underscores, hashes          and commas.
 
      * <h3>name</h3>
 
@@ -166,22 +166,22 @@ For Details on additional_data object go to [Additional Data](https://api.shufti
 
       Text provided in the consent verification can be verified by handwritten documents or printed documents. If “any” is mentioned in the format parameter, then       user can verify provided note using either of these two documents. Mention only one format from the following list.
 
-  Formats              |
-  ---------------------|
-  handwritten          |
-  printed            |
-  any                |
+      Formats              |
+      ---------------------|
+      handwritten          |
+      printed            |
+      any                |
 
-  **Example 1**  "printed"  
-  **Example 2**  "any"
+      **Example 1**  "printed"  
+      **Example 2**  "any"
 
    
 
     * <h3>text</h3>
 
-    Required: **Yes**  
-    Type: **string**  
-    Minimum: **2 characters**  
-    Maximum: **100 chracters**
+      Required: **Yes**  
+      Type: **string**  
+      Minimum: **2 characters**  
+      Maximum: **100 chracters**
 
-  Provide text in the string format which will be verified from a given proof.
+      Provide text in the string format which will be verified from a given proof.
