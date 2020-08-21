@@ -96,6 +96,10 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
 
 In order to get verified, customers will have themselves verified through their mobile phones. They will do it through the merchant's mobile application. Merchant will collect the information and send us the data for verification. The Merchant shall provide us with the proofs(Videos). We will not collect them directly from the user.
 
+*  ## With OCR
+In verification with OCR, it means that the merchant has not provided us proofs (images/videos) and also no data in some keys. In this verification Shufti Pro will perform extraction of data from those proofs and finally verify the data.
+
+
 
 
  ## Sample request (with ocr)
