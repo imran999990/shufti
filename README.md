@@ -27,7 +27,7 @@ Supported architectures in SDK:
 ### Packages
 
 We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro.
-*#### Dependencies in Expo
+* #### Dependencies in Expo
 
 ```json
 "dependencies": {  
