@@ -91,6 +91,13 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
    
  };
  ```
+
+## Verification
+
+In order to get verified, customers will have themselves verified through their mobile phones. They will do it through the merchant's mobile application. Merchant will collect the information and send us the data for verification. The Merchant shall provide us with the proofs(Videos). We will not collect them directly from the user.
+
+
+
  ## Sample request (with ocr)
  ``` js
  export const verificationObj = {  
@@ -151,81 +158,6 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
 
 />
 ```
-## Props
-
-
-<table>  
-<tr>  
-<th align="left">Property</th>  
-<th>type</th>  
-<th>required</th>  
-<th>default</th> 
-<th>description</th>  
-</tr>  
-<tr>  
-<td>verificationMode</td>  
-<td>string</td>  
-<td>no</td>  
-<td>image</td> 
-<td> There are two of modes.
-<ul>
-<li>image</li>
-<li>video</li>
-</ul>
-</td>  
-</tr>    
-<tr>  
-<td>onResponseOkayButton</td>  
-<td>function</td>  
-<td>no</td>  
-<td>()=>{}</td> 
-<td>on response screen to goback </td>  
-</tr>  
-<tr>  
-<td>cancelBtn</td>  
-<td>function</td>  
-<td>no</td>  
-<td>()=>{}</td> 
-<td>header cancel button callback</td>  
-</tr>  
-<tr>  
-<td>isShow</td>  
-<td>bool</td>  
-<td>no</td>  
-<td>true</td> 
-<td>hide/show shuftipro components</td>  
-</tr>  
-<tr>  
-<td>async</td>  
-<td>bool</td>  
-<td>no</td>  
-<td>false</td> 
-<td>If async value is set to true you'll instantly get the user's control back so you don't have to wait for the verification results</td>  
-</tr>  
-<tr>  
-<td>asyncResponseCallback</td>  
-<td>function</td>  
-<td>no</td>  
-<td>(res)=>{}</td> 
-<td>get api response</td>  
-</tr>  
-<tr>  
-<td>requestPayload</td>  
-<td>object</td>  
-<td>yes</td>  
-<td>
-<pre>
-{
-	reference : `Unique ID`,
-	verification_mode : `image_only`,
-	initiated_source_version:'1.0.1',
-	initiated_source :'react_native_ocr'
-}
-</pre>
-</td> 
-<td>api request payload</td>  
-</tr>  
-</table>
 
 ## Asyncronous Feedback
 
