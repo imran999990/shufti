@@ -154,7 +154,7 @@ For Details on additional_data object go to [Additional Data](https://api.shufti
 
        Set **true** to perform name extraction from provided proofs.
     
-    * ## consent
+ * ## consent
   
       Customised documents/notes can also be verified by Shufti Pro. Company documents, employee cards or any other personalised note can be authenticated by this       module. You can choose handwritten or printed document format but only one form of document can be verified in this verification module. Text whose presence       on the note/customized document is to be verified, is also needed to be provided.
       For **consent verification** just add key "consent" in data dictionary. Here are the additional keys for consent
