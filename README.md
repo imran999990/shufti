@@ -14,12 +14,12 @@ Supported architectures in SDK:
 
  - armeabi-v7a, x86, arm64-v8a, x86_64
 ## SDK Installation Guide 
-### Installation through npm(Expo)
+### Installation through npm (Expo)
   ```
   $ npm install expo-shuftipro-sdk --save`
 ``` 
 
-## SDK Installation Guide (React Native)
+### SDK Installation Guide (React Native)
   ```
   $ npm install react-native-shuftipro-sdk --save`
 ``` 
