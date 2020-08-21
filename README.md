@@ -71,12 +71,12 @@ We find it fair to share our `package.json dependencies`  with you! here are the
  ## Integration:
  See the sample project provided to learn the most common use. Make sure to build on real device.
  
- *### Expo
+ * ### Expo
  ```
  $ import ShuftiPro from "expo-shuftipro-sdk"
  ```
 
-*### React Native
+* ### React Native
  ```
  $ import ShuftiPro from "react-native-shuftipro-sdk"
  ```
