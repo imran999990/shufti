@@ -19,18 +19,28 @@ Supported architectures in SDK:
   $ npm install expo-shuftipro-sdk --save`
 ``` 
 
-### Requirements
-<ul>
-<li>npm install prop-types</li>
-<li>expo install expo-camera</li>
-<li>npm install react-native-easy-grid</li>
-<li>npm install react-native-responsive-screen</li>
-<li>expo install expo-av</li>
-<li>npm install redux</li>
-<li>npm install react-redux</li>
-<li>npm install redux-persist</li>
-<li>npm install redux-thunk</li>
-</ul>
+### Packages
+We find it fair to share our `package.json dependencies`  with you! These are the main dependencies used inside Shuftipro.
+
+```json
+"dependencies": {  
+  "base-64": "^0.1.0",  
+  "expo": "~38.0.8",  
+  "expo-av": "~8.2.1",  
+  "expo-camera": "~8.3.1",  
+  "prop-types": "^15.7.2",  
+  "react": "~16.11.0",  
+  "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",  
+  "react-native-easy-grid": "^0.2.2",  
+  "react-native-responsive-screen": "^1.4.1",  
+  "react-redux": "^7.2.1",  
+  "redux": "^4.0.5",  
+  "redux-persist": "^6.0.0",  
+  "redux-thunk": "^2.3.0",  
+  "expo-permissions": "~9.0.1",  
+  "expo-network": "~2.2.1"  
+},
+```
 
  ## Integration:
  See the sample project provided to learn the most common use. Make sure to build on real device.
@@ -47,7 +57,6 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
           isShow={true}
           requestPayload={verificationObj}
           verificationMode={"video"}
-          verificationTypeList={['face_verification','document_verification','address_verification','consent_verification']}
           async={true}
           asyncResponseCallback={(response)=>{
            console.log("Response : ", response)
@@ -81,20 +90,7 @@ You can read more about **accessToken**  [here](https://api.shuftipro.com/api/do
 <li>video</li>
 </ul>
 </td>  
-</tr>  
-<tr>  
-<td>verificationTypeList</td>  
-<td>array</td>  
-<td>no</td>  
-<td>["face_verification"]</td> 
-<td>There are four type of verifications.
-<ul>
-<li>face_verification</li>
-<li>address_verification</li>
-<li>document_verification</li>
-<li>consent_verification</li>
-</ul></td>  
-</tr>  
+</tr>    
 <tr>  
 <td>onResponseOkayButton</td>  
 <td>function</td>  
@@ -674,145 +670,5 @@ If you have any questions/queries regarding implementation SDK please feel free 
 
 ## Copyright
 
-2016-17 © Shufti Pro Ltd.
-
-  
-
-  
-
-## Revision History
-
-
-<table>
-<tr>
-<th>Date</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-8 Nov 2018
-</td>
-<td>
-Added non-ocr demo app.
-</td>
-</tr>
-
-<tr>
-<td>
- 5 Nov 2018
-</td>
-<td>
-Added async parameter in sdk.
-</td>
-</tr>
-
-<tr>
-<td>
- 15 Jan 2019
-</td>
-<td>
-Updated SDK with async uploading progress.
-</td>
-</tr>
-
-<tr>
-<td>
-  22 Jan 2019
-</td>
-<td>
-Updated SDK with progress bar (in percentage.
-</td>
-</tr>
-
-<tr>
-<td>
-  12 Apr 2019
-</td>
-<td>
-Updated SDK swift version to swift 5.
-</td>
-</tr>
-
-<tr>
-<td>
-  18 May 2019
-</td>
-<td>
-Added support to install through cocoapods.
-</td>
-</tr>
-
-<tr>
-<td>
- 21 May 2019  
-</td>
-<td>
-Added support to install SDK  swift version 4 through cocoapods.
-</td>
-</tr>
-
-<tr>
-<td>
- 23 May 2019
-</td>
-<td>
-Added support to install SDK  swift version 3 through cocoapods.
-</td>
-</tr>
-
-<tr>
-<td>
-  3 June 2019 
-</td>
-<td>
-Updated designs and added image capturing option.
-</td>
-</tr>
-
-<tr>
-<td>
-    24 June 2019
-</td>
-<td>
- Fixed UI orientation to prtrait mode.
-</td>
-</tr>
-
-<tr>
-<td>
-    7 Sep 2019
-</td>
-<td>
-Updated SDK and demo app with new logos.
-</td>
-</tr>
-
-<tr>
-<td>
-      21 Oct 2019
-</td>
-<td>
-Updated SDK swift version to swift 5.1.
-</td>
-</tr>
-</table>
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+2016-20 © Shufti Pro Ltd.
   
