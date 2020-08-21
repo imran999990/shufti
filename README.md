@@ -76,7 +76,11 @@ We find it fair to share our `package.json dependencies`  with you! These are th
     "redux-thunk": "^2.3.0" 
 },
 ```
-
+ ### Integration:
+ See the sample project provided to learn the most common use. Make sure to build on real device.
+ ```
+ $ import ShuftiPro from "react-native-shuftipro-sdk"
+ ```
 
 
 
