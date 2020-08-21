@@ -13,13 +13,19 @@ Followings are minimum requirements for SDK:
 Supported architectures in SDK:
 
  - armeabi-v7a, x86, arm64-v8a, x86_64
-## SDK Installation Guide Expo
-### Installation through npm
+## SDK Installation Guide 
+### Installation through npm(Expo)
   ```
   $ npm install expo-shuftipro-sdk --save`
 ``` 
 
+## SDK Installation Guide (React Native)
+  ```
+  $ npm install react-native-shuftipro-sdk --save`
+``` 
+
 ### Packages
+* #### Expo
 We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for expo.
 
 ```json
@@ -50,10 +56,9 @@ We find it fair to share our `package.json dependencies`  with you! here are the
 
 
 ## SDK Installation Guide React Native
-### Installation through npm
-  ```
-  $ npm install react-native-shuftipro-sdk --save`
-``` 
+
+
+
 
 ### Packages
 We find it fair to share our `package.json dependencies`  with you! here are the main dependencies used inside Shuftipro for react native.
