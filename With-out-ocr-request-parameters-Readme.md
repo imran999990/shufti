@@ -105,7 +105,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
 
   
 
-   * <h4>first_name</h4>
+    <h5>first_name</h5>
 
       Required: ****Yes****
       Type: ****string****
