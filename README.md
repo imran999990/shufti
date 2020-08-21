@@ -13,7 +13,7 @@ Followings are minimum requirements for SDK:
 Supported architectures in SDK:
 
  - armeabi-v7a, x86, arm64-v8a, x86_64
-## SDK Installation Guide
+## SDK Installation Guide Expo
 ### Installation through npm
   ```
   $ npm install expo-shuftipro-sdk --save`
@@ -47,6 +47,17 @@ We find it fair to share our `package.json dependencies`  with you! These are th
  ```
  $ import ShuftiPro from "expo-shuftipro-sdk"
  ```
+
+
+## SDK Installation Guide React Native
+### Installation through npm
+  ```
+  $ npm install react-native-shuftipro-sdk --save`
+``` 
+
+
+
+
 ***Make an instance***  
 Instance can be made in two ways. First is by using **clientId** and **secretKey**, other one is by providing **accessToken**.  
 You can read more about **accessToken**  [here](https://api.shuftipro.com/api/docs/#access-token)
