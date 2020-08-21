@@ -13,7 +13,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
      Minimum: ****6 characters****
      Maximum: ****250 characters****
 
-   This is the unique reference ID of request, which we will send you back with each response, so you can verify the request. Only alphanumeric values are allowed. This reference can be used to get status of already performed verification requests.
+   This is the unique reference ID of request, which we will send you back with each response, so you can verify the request. Only alphanumeric values are allowed.    This reference can be used to get status of already performed verification requests.
 
   
 
@@ -103,39 +103,33 @@ All verification services are optional. You can provide Shufti Pro a single serv
      
      ****Example 2****  { "first_name" : "John", "last_name" : "Doe", "fuzzy_match" : "1"}
 
-  
+       <h5>first_name</h5>
+     
+        Required: ****Yes****
+        Type: ****string****
+        Minimum: ****2 characters****
+        Maximum: ****32 chracters****
+        Allowed Characters are alphabets, - (dash), comma, space, dot and single             quotation mark.
+        Example ****John'O Harra****
 
-   * <h4>first_name</h4>
+     <h5>middle_name</h5>
 
-      Required: ****Yes****
-      Type: ****string****
-      Minimum: ****2 characters****
-      Maximum: ****32 chracters****
-      Allowed Characters are alphabets, - (dash), comma, space, dot and single             quotation mark.
-Example ****John'O Harra****
+       Required: ****No****
+       Type: ****string****
+       Minimum: ****2 characters****
+       Maximum: ****32 chracters****
+       Allowed Characters are alphabets, - (dash), comma, space, dot and single quotation mark.
+       Example ****Carter-Joe****
 
-  
-
-   * <h4>middle_name</h4>
-
-     Required: ****No****
-     Type: ****string****
-    Minimum: ****2 characters****
-    Maximum: ****32 chracters****
-Allowed Characters are alphabets, - (dash), comma, space, dot and single quotation mark.
-Example ****Carter-Joe****
-
-  
-
-   * <h4>last_name</h4>
+     <h5>last_name</h5>
    
-     Required: ****No****
-     Type: ****string****
-     Minimum: ****2 characters****
-     Maximum: ****32 chracters****
+       Required: ****No****
+       Type: ****string****
+       Minimum: ****2 characters****
+       Maximum: ****32 chracters****
 
-      Allowed Characters are alphabets, - (dash), comma, space, dot and single     quotation mark.
- Example ****John, Huricane Jr.****
+       Allowed Characters are alphabets, - (dash), comma, space, dot and single     quotation mark.
+       Example ****John, Huricane Jr.****
 
   
 
@@ -255,19 +249,17 @@ Examples 35201-0000000-0, ABC1234XYZ098
 
   
 
-      * <h4>first_name</h4>
+        <h5>first_name</h5>
 
-        Required: ****Yes****
-        Type: ****string****
-        Minimum: ****2 characters****
-        Maximum: ****32 chracters****
+          Required: ****Yes****
+          Type: ****string****
+          Minimum: ****2 characters****
+          Maximum: ****32 chracters****
 
-        Allowed Characters are alphabets, - (dash), comma, space, dot and single    quotation mark.
-Example ****John'O Harra****
+          Allowed Characters are alphabets, - (dash), comma, space, dot and single    quotation mark.
+          Example ****John'O Harra****
 
-  
-
-      * <h4>middle_name</h4>
+        <h5>middle_name</h5>
 
          Required: ****No****
         Type: ****string****
@@ -275,24 +267,21 @@ Example ****John'O Harra****
         Maximum: ****32 chracters****
 
         Allowed Characters are alphabets, - (dash), comma, space, dot and single quotation mark.
-Example ****Carter-Joe****
+        Example ****Carter-Joe****
 
-  
-
-      * <h4>last_name</h4>
+        <h5>last_name</h5>
 
         Required: ****No****
-       Type: ****string****
+        Type: ****string****
         Minimum: ****2 characters****
         Maximum: ****32 chracters****
 
         Allowed Characters are alphabets, - (dash), comma, space, dot and single quotation mark.
-Example ****John, Huricane Jr.****
+        Example ****John, Huricane Jr.****
 
   
-
       * <h4>fuzzy_match</h4>
-
+      
          Required: ****No****
          Type: ****string****
           Value Accepted: ****1****
