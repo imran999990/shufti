@@ -295,7 +295,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
 
    For ****document verification**** just add key "document" in data dictionary. Here are the additional keys for document
 
-   * <h3>supported_types</h3>
+   * <h4>supported_types</h4>
    
      Required: ****Yes****
      Type: ****Array****
