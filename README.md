@@ -12,7 +12,7 @@ Followings are minimum requirements for SDK:
 
 Supported architectures in SDK:
 
- - "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+ - armeabi-v7a, x86, arm64-v8a, x86_64
 ## SDK Installation Guide
 ### Installation through npm
   ```
