@@ -55,6 +55,29 @@ We find it fair to share our `package.json dependencies`  with you! These are th
   $ npm install react-native-shuftipro-sdk --save`
 ``` 
 
+### Packages
+We find it fair to share our `package.json dependencies`  with you! These are the main dependencies used inside Shuftipro.
+
+```json
+"dependencies": {  
+  "base-64": "^0.1.0",  
+  "expo": "~38.0.8",  
+  "expo-av": "~8.2.1",  
+  "expo-camera": "~8.3.1",  
+  "prop-types": "^15.7.2",  
+  "react": "~16.11.0",  
+  "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",  
+  "react-native-easy-grid": "^0.2.2",  
+  "react-native-responsive-screen": "^1.4.1",  
+  "react-redux": "^7.2.1",  
+  "redux": "^4.0.5",  
+  "redux-persist": "^6.0.0",  
+  "redux-thunk": "^2.3.0",  
+  "expo-permissions": "~9.0.1",  
+  "expo-network": "~2.2.1"  
+},
+```
+
 
 
 
