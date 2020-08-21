@@ -313,7 +313,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
 
   
 
-   * <h3>name</h3>
+   * <h4>name</h4>
 
      Required: ****No****
      Type: ****object****
@@ -370,7 +370,7 @@ Value Accepted: ****1****
 
   
 
-   * <h3>dob</h3>
+   * <h4>dob</h4>
 
      Required: ****No****
      Type: ****string****
@@ -381,7 +381,7 @@ Example 1990-12-31
 
   
 
-   * <h3>document_number</h3>
+   * <h4>document_number</h4>
 
      Required: ****No****
    Type: ****string****
@@ -393,7 +393,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
 
   
 
-    * <h3>issue_date</h3>
+    * <h4>issue_date</h4>
 
       Required: ****No****
       Type: ****string****
@@ -404,7 +404,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
 
   
 
-   * <h3>expiry_date</h3>
+   * <h4>expiry_date</h4>
 
      Required: ****No****
      Type: ****string****
@@ -413,7 +413,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
      Provide a valid date. Please note that the date should be after today.
      Example 2025-12-31
 
-   * <h3>fetch_enhanced_data</h3>
+   * <h4>fetch_enhanced_data</h4>
    
       Required: ****No****
       Type: ****string****
@@ -437,7 +437,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
       verification**** just add key "address" in data dictionary. Here are the 
       additional keys for address
 
-       * <h3>supported_types</h3>
+       * <h4>supported_types</h4>
        
          Required: ****Yes****
          Type: ****Array****
@@ -454,7 +454,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
             ****Example 1**** [ "utility_bill" ]
             ****Example 2**** [ "id_card", "bank_statement" ]
 
-      * <h3>full_address</h3>
+      * <h4>full_address</h4>
 
         Required: ****Yes****
         Type: ****string****
@@ -465,7 +465,7 @@ Examples 35201-0000000-0, ABC1234XYZ098
 
   
 
-      * <h3>name</h3>
+      * <h4>name</h4>
 
          Required: ****No****
          Format ****object****
@@ -531,7 +531,7 @@ Example ****John, Huricane Jr.****
 
    For ****consent verification**** just add key "consent" in data dictionary. Here are the additional keys for consent
 
-   * <h3>format</h3>
+   * <h4>format</h4>
    
        Required: ****Yes****
       Type: ****string****
