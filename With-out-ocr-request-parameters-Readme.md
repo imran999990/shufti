@@ -255,24 +255,24 @@ Examples 35201-0000000-0, ABC1234XYZ098
 
   
 
-      * <h4>first_name</h4>
+       * <h5>first_name</h5>
 
-        Required: ****Yes****
-        Type: ****string****
-        Minimum: ****2 characters****
-        Maximum: ****32 chracters****
+         Required: ****Yes****
+         Type: ****string****
+         Minimum: ****2 characters****
+         Maximum: ****32 chracters****
 
         Allowed Characters are alphabets, - (dash), comma, space, dot and single    quotation mark.
 Example ****John'O Harra****
 
   
 
-      * <h4>middle_name</h4>
+       * <h5>middle_name</h5>
 
          Required: ****No****
-        Type: ****string****
-        Minimum: ****2 characters****
-        Maximum: ****32 chracters****
+         Type: ****string****
+         Minimum: ****2 characters****
+         Maximum: ****32 chracters****
 
         Allowed Characters are alphabets, - (dash), comma, space, dot and single quotation mark.
 Example ****Carter-Joe****
