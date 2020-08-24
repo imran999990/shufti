@@ -83,7 +83,7 @@ We find it fair to share our `package.json dependencies`  with you! here are the
 
 
 
-***Make an instance***  
+***Make an instance***
 Instance can be made in two ways. First is by using **clientId** and **secretKey**, other one is by providing **accessToken**.  
 You can read more about **accessToken**  [here](https://api.shuftipro.com/api/docs/#access-token)
  
@@ -280,7 +280,7 @@ verification.declined | Request was valid and declined after verification.|Yes|Y
 
 ## Sample project setup
 
-In ViewController.swift add your ****Client ID**** on line 14 and ****Secret Key**** on line 15, thats it!
+In Mode/VerificationSelector.js add your ****Client ID**** on line 13 and ****Secret Key**** on line 14, thats it!
 
 >  ****_Note:_**** _Run project on real device._
 
