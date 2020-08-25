@@ -77,7 +77,7 @@ We find it fair to share our `package.json dependencies`  with you! here are the
  $ import ShuftiPro from "react-native-shuftipro-kyc"
  ```
   * ##### Android
-     goto ```ProjectName/android/app/build.gradle``` and add ```missingDimensionStrategy 'react-native-camera', 'general'``` in defaultConfig: section.
+     goto ```ProjectName/android/app/build.gradle``` and add ```missingDimensionStrategy react-native-camera, 'general``` in defaultConfig: section.
      like this :
   
      ```js
