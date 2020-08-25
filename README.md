@@ -36,8 +36,6 @@ We find it fair to share our `package.json dependencies`  with you! here are the
   "expo-av": "~8.2.1",  
   "expo-camera": "~8.3.1",  
   "prop-types": "^15.7.2",  
-  "react": "~16.11.0",  
-  "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",  
   "react-native-easy-grid": "^0.2.2",  
   "react-native-responsive-screen": "^1.4.1",  
   "react-redux": "^7.2.1",  
@@ -54,8 +52,6 @@ We find it fair to share our `package.json dependencies`  with you! here are the
    "@react-native-community/netinfo": "^5.9.6",
     "base-64": "^0.1.0",
     "prop-types": "^15.7.2",
-    "react": "16.13.1",
-    "react-native": "0.63.2",
     "react-native-camera": "^3.36.0",
     "react-native-easy-grid": "^0.2.2",
     "react-native-responsive-screen": "^1.4.1",
@@ -80,6 +76,20 @@ We find it fair to share our `package.json dependencies`  with you! here are the
  ```
  $ import ShuftiPro from "react-native-shuftipro-sdk"
  ```
+  * ##### Android
+     goto ProjectName/android/app/build.gradle and add missingDimensionStrategy 'react-native-camera', 'general' in defaultConfig: section.
+     like this :
+  
+     ```js
+      defaultConfig {
+        applicationId "com.xxxxxxxxx"
+        minSdkVersion rootProject.xx.xxxxxxxxxx
+        targetSdkVersion rootProject.xx.xxxxxxxx
+        versionCode 1
+        versionName "1.0"
+        missingDimensionStrategy 'react-native-camera', 'general' //add this line
+    }
+     ```
 
 
 
