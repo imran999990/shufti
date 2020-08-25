@@ -198,7 +198,6 @@ In verification without OCR, merchant gives us the data in keys as well as all t
 * #### with accessToken
 ```js
 <ShuftiPro
-          isShow={true}
           requestPayload={verificationObj}
           verificationMode={"video"}
           async={true}
@@ -213,7 +212,6 @@ In verification without OCR, merchant gives us the data in keys as well as all t
 * #### with Client Id and Secret Key
 ```js
 <ShuftiPro
-          isShow={true}
           requestPayload={verificationObj}
           verificationMode={"video"}
           async={true}
