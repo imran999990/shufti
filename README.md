@@ -193,31 +193,31 @@ export const verificationObj = {
 ## Usage
 * #### with accessToken
 ```js
-<ShuftiPro
+          <ShuftiPro
           requestPayload={verificationObj}
           verificationMode={"video"}
           async={true}
           asyncResponseCallback={(response)=>{
            console.log("Response : ", response)
           }}
-         onResponseOkayButton={()=>{console.log("Okay Btn")}}
-         cancelBtn={()=>{console.log("Cancel Btn")}}
-         accessToken={""}
-       />
+          onResponseOkayButton={()=>{console.log("Okay Btn")}}
+          cancelBtn={()=>{console.log("Cancel Btn")}}
+          accessToken={""}
+	   />
 ```
 * #### with Client Id and Secret Key
 ```js
-<ShuftiPro
+          <ShuftiPro
           requestPayload={verificationObj}
           verificationMode={"video"}
           async={true}
           asyncResponseCallback={(response)=>{
            console.log("Response : ", response)
           }}
-         onResponseOkayButton={()=>{console.log("Okay Btn")}}
-         cancelBtn={()=>{console.log("Cancel Btn")}}
-         basicAuth={{client_id:KEYS.BASIC_AUTH_UNAME,secret_key:KEYS.BASIC_AUTH_PWD }}
-/>
+          onResponseOkayButton={()=>{console.log("Okay Btn")}}
+          cancelBtn={()=>{console.log("Cancel Btn")}}
+          basicAuth={{client_id:KEYS.BASIC_AUTH_UNAME,secret_key:KEYS.BASIC_AUTH_PWD }}
+          />
 ```
 
 ## Asyncronous Feedback
