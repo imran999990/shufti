@@ -16,12 +16,12 @@ Supported architectures in SDK:
 ## SDK Installation Guide 
 ### Installation through npm (Expo)
   ```
-  $ npm install expo-shuftipro-sdk --save`
+  $ npm install expo-shuftipro-kyc --save`
 ``` 
 
 ### SDK Installation Guide (React Native)
   ```
-  $ npm install react-native-shuftipro-sdk --save`
+  $ npm install react-native-shuftipro-kyc --save`
 ``` 
 
 ### Packages
@@ -69,15 +69,15 @@ We find it fair to share our `package.json dependencies`  with you! here are the
  
  * #### Expo
  ```
- $ import ShuftiPro from "expo-shuftipro-sdk"
+ $ import ShuftiPro from "expo-shuftipro-kyc"
  ```
 
 * #### React Native
  ```
- $ import ShuftiPro from "react-native-shuftipro-sdk"
+ $ import ShuftiPro from "react-native-shuftipro-kyc"
  ```
   * ##### Android
-     goto ProjectName/android/app/build.gradle and add missingDimensionStrategy 'react-native-camera', 'general' in defaultConfig: section.
+     goto ```ProjectName/android/app/build.gradle``` and add ```missingDimensionStrategy 'react-native-camera', 'general'``` in defaultConfig: section.
      like this :
   
      ```js
@@ -195,6 +195,7 @@ In verification without OCR, merchant gives us the data in keys as well as all t
  
  
 ## Usage
+* #### with accessToken
 ```js
 <ShuftiPro
           isShow={true}
@@ -207,8 +208,21 @@ In verification without OCR, merchant gives us the data in keys as well as all t
          onResponseOkayButton={()=>{console.log("Okay Btn")}}
          cancelBtn={()=>{console.log("Cancel Btn")}}
          accessToken={""}
+       />
+```
+* #### with Client Id and Secret Key
+```js
+<ShuftiPro
+          isShow={true}
+          requestPayload={verificationObj}
+          verificationMode={"video"}
+          async={true}
+          asyncResponseCallback={(response)=>{
+           console.log("Response : ", response)
+          }}
+         onResponseOkayButton={()=>{console.log("Okay Btn")}}
+         cancelBtn={()=>{console.log("Cancel Btn")}}
          basicAuth={{client_id:KEYS.BASIC_AUTH_UNAME,secret_key:KEYS.BASIC_AUTH_PWD }}
-
 />
 ```
 
