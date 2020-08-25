@@ -37,7 +37,7 @@ All verification services are optional. You can provide Shufti Pro a single serv
   Minimum: **6 characters**  
   Maximum: **128 characters**
 
-  This field represents email of the end-user. If it is missing in a request, than Shuftpro will ask the user for its email in an on-site request.
+  This field represents email of the end-user.
 
 * ## callback_url
 
